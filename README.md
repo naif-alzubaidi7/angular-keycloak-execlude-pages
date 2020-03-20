@@ -9,6 +9,8 @@ this project has two components,first general component which the one that shoul
 and the second is the secure component wheras the user only access it after login.
 
 for the project configuration you just need to add your keycloak URL , REALM and Client ID into environemt ts :
+
+```
 ....
 const keycloakConfig: KeycloakConfig = {
   url: 'ADD_YOUR_URL',
@@ -17,6 +19,8 @@ const keycloakConfig: KeycloakConfig = {
 };
 
 ...
+
+```
 
 
 that's it :) 
